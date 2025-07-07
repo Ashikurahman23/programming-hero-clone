@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.primary-btn {
+  background: linear-gradient(to left, #d33ff5, #6254fd);
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.primary-btn a {
+  color: #fff;
+}
+body {
+  font-family: 'Grotesk', sans-serif;
+}
+
+.header {
+  background: linear-gradient(to top, #32084d, #000000);
+  color: #fff;
+  padding: 2% 5%;
+}
+.nav {
+  justify-content: space-between;
+}
+.nav .logo .icon {
+  background: #d33ff5;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 8cqmin;
+}
+.nav ul li {
+  margin-right: 20px;
+}
+.nav ul li a {
+  color: #fff;
+}
+.nav .btnandicon {
+  margin: 0 10px;
+}
+.diamond {
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  background: #e8f8d3;
+  border: none;
+  margin-right: 10px;
+}
+.user {
+  background-color: #d33ff5;
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+.user:hover {
+  background-color: #32084d;
+  color: #fff;
+}
+
+.hero_heading,
+.hero_para {
+  font-family: 'Hind Siliguri';
+}
+.hero {
+  width: 1000px;
+  margin: 60px auto;
+  text-align: center;
+}
+.hero .hero_heading {
+  font-size: 38px;
+  color: #eee0ff;
+}
+.hero .hero_para {
+  color: #eee0ff;
+}
